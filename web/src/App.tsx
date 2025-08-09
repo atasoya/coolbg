@@ -1,9 +1,11 @@
 import Hero from "./components/Hero";
+import Editor from "./components/editor/Editor";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center">
       <Hero />
+      <Editor />
     </div>
   );
 }
