@@ -1,6 +1,5 @@
 import * as p from "@clack/prompts";
 import color from "picocolors";
-import color from "picocolors";
 import {
   resolveAndValidateInputFile,
   getImageAndMetadata,
