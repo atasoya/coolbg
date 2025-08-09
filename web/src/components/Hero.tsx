@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center mt-20">
+    <div className="flex flex-col items-center mt-10">
       <p className="text-center mt-1 font-jetbrains-mono text-gray-500">
         npx coolbg
       </p>
