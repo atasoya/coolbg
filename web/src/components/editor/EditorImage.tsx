@@ -38,7 +38,7 @@ const EditorImage = ({
   }, []);
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <div className="max-w-2xl w-full" id="editor-image-container">
+      <div className="w-full max-w-2xl" id="editor-image-container">
         <div
           className="w-full h-full shadow-lg rounded-xl overflow-hidden"
           style={{

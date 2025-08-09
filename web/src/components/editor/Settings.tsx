@@ -36,10 +36,10 @@ const Settings = ({
   );
 
   return (
-    <div className="w-full mt-5 flex justify-center">
+    <div className="w-full mt-5 flex justify-center px-2">
       <div className="w-full max-w-2xl">
         <div className="rounded-2xl border border-gray-200 bg-white/70 backdrop-blur-sm shadow-sm p-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between flex-wrap gap-2">
             <h3 className="text-sm font-medium text-gray-700">Settings</h3>
             <div className="flex items-center gap-2">
               <button
@@ -69,7 +69,7 @@ const Settings = ({
             </div>
           )}
 
-          <div className="mt-4 grid grid-cols-2 gap-3">
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
             <label className="flex items-center gap-3 rounded-xl border border-gray-200 p-2 hover:bg-gray-50 cursor-pointer">
               <span
                 className="h-8 w-8 rounded-lg border border-gray-200"
