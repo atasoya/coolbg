@@ -1,16 +1,27 @@
 {
-  "name": "cli",
+  "name": "coolbg",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool to create cool backgrounds for your images.",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "background",
+    "image",
+    "processing"
+  ],
+  "bin": {
+    "coolbg": "./index.js"
+  },
+  "author": "Ata Atasoy",
+  "license": "MIT",
   "dependencies": {
     "@clack/prompts": "^0.11.0",
     "picocolors": "^1.0.0",
