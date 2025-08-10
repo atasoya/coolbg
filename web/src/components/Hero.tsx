@@ -11,7 +11,7 @@ const Hero = () => {
           Background
         </span>
       </h1>
-      <p className="text-base sm:text-lg text-center mt-2 font-nunito px-2">
+      <p className="text-base sm:text-lg text-center mt-2 px-2">
         Create cool backgrounds for your images with ease.
       </p>
     </div>
