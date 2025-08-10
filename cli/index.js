@@ -61,11 +61,11 @@ async function main() {
       outputPath,
     });
 
-    const nextSteps = `Your cool image is ready at ${outputPath}\nStar our repo: https://github.com/coolbg/coolbg\nWebsite: https://coolbg.com`;
+    const nextSteps = `Your cool image is ready at ${outputPath}\nWebsite: https://coolbg.ata.soy`;
     p.note(nextSteps, "Cool.");
     p.outro(
       `Star coolbg on GitHub <3 ${color.underline(
-        color.cyan("https://github.com/coolbg/coolbg")
+        color.cyan("https://github.com/atasoya/coolbg")
       )}`
     );
   } catch (err) {
