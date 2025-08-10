@@ -8,7 +8,7 @@ const Footer = () => {
           rel="noreferrer noopener"
           className="hover:text-gray-700 underline-offset-4 hover:underline"
         >
-          GitHub Repo
+          github
         </a>
         <span className="text-gray-300">•</span>
         <a
@@ -18,6 +18,15 @@ const Footer = () => {
           className="hover:text-gray-700 underline-offset-4 hover:underline"
         >
           ata.soy
+        </a>
+        <span className="text-gray-300">•</span>
+        <a
+          href="https://www.npmjs.com/package/coolbg"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="hover:text-gray-700 underline-offset-4 hover:underline"
+        >
+          npm
         </a>
       </div>
     </footer>
